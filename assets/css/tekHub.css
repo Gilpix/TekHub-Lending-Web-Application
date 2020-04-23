@@ -1,0 +1,410 @@
+#content{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 20%;
+	color: white;
+	text-shadow: 0px 4px 15px rgba(0,0,0,0.4),
+	0px 8px 15px rgba(0,0,0,0.4)
+	0px 15px 15px rgba(0,0,0,0.4) ;
+
+}
+
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link,
+.navbar-light .nav-item.active .nav-link:hover,
+.navbar-light .nav-item .nav-link:hover,
+.navbar-light .nav-item .nav-link:hover,
+.navbar-light .nav-item:hover .nav-link  
+{
+	color: #d02525;
+}
+
+
+#logo{
+	
+	margin-right: 10px
+}
+
+.body-normal-background{
+	background-image:  url("https://creative-designs.ca/wp-content/uploads/2015/08/Website-Design-Background.jpg");
+	background-size: cover ;
+	font-weight: 700;
+	font-family: 'Crete Round', serif;
+	background-position: center;
+}
+
+
+.product-items-back{
+	background-image:  url("https://creative-designs.ca/wp-content/uploads/2015/08/Website-Design-Background.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+
+
+#home-hr{
+	width: 400px;
+}
+
+
+h1{	
+	font-family: 'Crete Round', serif;
+	font-weight: 900;
+	font-size: 5vw;
+	letter-spacing: 2px;
+}
+
+h3{
+	font-family: 'Crete Round', serif;
+	font-size: 2.5vw;
+	letter-spacing: 2px;
+}
+
+.sign-in-up-logo{
+	margin:auto;
+	width: 100px;
+	height: 100px;
+	align-content: center;
+}
+
+.submit{
+	background: #d02525;
+	color: white;
+	margin: 0 auto;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 25px;
+	width: 90%;
+	padding-top:8px ;
+	padding-bottom: 8px;
+	text-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+	outline: none;
+}
+
+.mycard{
+	width: 40%;
+	text-align:center;
+	padding-top: 30px; 
+	padding-bottom: 30px;
+	max-width: 400px;
+	min-width: 20rem;
+	background: rgba(255,255,255);
+	margin: 150px auto;
+	box-shadow: 1px 1px 5px black;
+	border-radius: 5px;
+}
+
+.input-box{
+	border-radius: 0;
+	width: 90%;
+	border-bottom: 1px solid #d02525;
+	margin: 0 auto;
+	text-align: center;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+	padding: 5px;
+	box-shadow: none;
+	transition: 0.5s;
+}
+
+input:focus {
+	border-bottom: 2.2px solid #d02525;
+}
+
+#login-head{
+	margin-bottom: 35px;
+	color: #666;
+	font-size: 2rem;
+	letter-spacing: 1px;
+
+}
+
+label{
+	color: #666;
+	align-content: center;
+
+}
+
+.input-gender{
+	align-content: center;
+	margin: auto;
+}
+
+.product-image{
+	margin:auto;
+	padding: 10px;
+	width: 90%;
+	max-width: 200px;
+	max-height: 250px;
+	align-content: center;
+
+}
+
+.buy-product ,.view-product{
+	float: right;
+	background: gray;
+	font-size: .8rem;
+	letter-spacing: 1.2px;
+	margin: 0 3px;
+	border-radius: 13px;
+	color: white;
+	padding: 4px 12px;
+}
+
+.jumbotron-product{
+	max-height: 180px;
+	color: #2c3e50;
+	margin-top: 45px;
+	background: #ecf0f1;
+}
+
+.card-title{
+	margin: -5px auto;
+	text-align: center;
+}
+
+.row{
+	margin: 0 auto;
+	text-align: center;
+	align-content: center;
+}
+
+.buy-product:hover ,.view-product:hover{
+	color: white;
+	background: #d02525;
+	text-decoration: none;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, .6);
+}
+
+a{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.about-app{
+	background: black;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.75);
+	align-content: center;
+}
+
+#products-back{
+	background: url("https://yesicd.com/wp-content/uploads/2018/07/software-development-cover.jpg") top right no-repeat; 
+	background-attachment:fixed;
+	font-weight: 700;
+	font-family: 'Crete Round', serif;
+	background-position: center;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.space{
+	margin-top: 5%;
+	padding: 1.6%;
+	
+}
+
+.card-shadow{
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 1.5);
+	border-radius: 7px;
+}
+
+.footer{
+	max-height: 400px;
+	background: #d02525;
+	font-family: Palatino, serif;
+	font-style: normal;
+	letter-spacing: 1px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width:100%;
+	background-attachment:fixed;
+	color: white;
+}
+
+#full-hr{
+	width:50%;
+	margin: 5px auto;
+}
+
+.footer-link{
+	color: white;
+	text-decoration: none;
+	list-style: none;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: .9rem;
+	text-transform: none;
+
+}
+.footer-link:hover{
+	color: rgba(0, 0, 0, .5);
+	text-decoration: none;
+}
+
+.footer-text{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: .9rem;
+	text-transform: none;
+}
+
+.text-whit{
+	color: white;
+}
+
+.req-span{
+	font-size: 2vw;
+	display: block;
+	font-family: sans-serif;
+	font-weight: 400;
+	color: #fff;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 1px #000;
+}
+
+#tobuy{
+	max-width: 1000px;
+	width: 80%;
+	height: 80%;
+}
+
+.goTo{
+	margin-left: 60%;
+	color: #fff;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+.product-image{
+	max-height: 150px;
+}
+
+
+.header {
+	width: 100%;
+	height: 80vh;
+	position: relative;
+	display: grid;
+	grid-template-rows: max-content 1fr;
+	grid-template-columns: 1fr max-content;
+}
+
+
+.jumbotron-contact{
+	color: white;
+	text-align: center;
+	margin-top: 45px;
+	background: rgba(0, 0, 0, .01);
+	background-repeat: no-repeat;
+	height: 10%;
+	background-position:  relative;
+	background-attachment: fixed;
+}
+
+.bg {
+	width: 100%;
+	height: 50%;
+	background-image: url("https://essencecartoon.com/wp-content/uploads/2016/02/Website-Header.jpg");
+	background-size: cover;
+	background-position: center;
+	margin-top: 45px;
+	filter: brightness(100%);
+	clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.title {
+	align-self: center;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 0px 2px 4px rgba(0,0,0,.4);
+	margin-top: 7%;
+}
+
+
+.text {
+	text-transform: capitalize;
+}
+
+header {
+	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	text-align: center;
+	margin-top: 55px;
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	overflow: hidden;
+	border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay{
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #333;
+	/*background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);*/
+	background: linear-gradient(to right, #b31217, #e52d27); 
+}
+
+.mycard-contact{
+	width: 100%;
+	text-align:left;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	min-width: 20rem;
+	align-content: left;
+	background: rgba(255,255,255);
+	margin: 80px auto;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+	border-radius: 5px;
+}
+
+.input-contacts{
+	width: 50%;
+	text-align: left;
+	transition: 0.5s;
+}
+
+.text-para{
+	/*font-family: 'Crete Round', serif;*/
+	/*font-family: "Times New Roman", Times, serif;*/
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-family: Lucida, sans-serif;
+	/*font-family: Helvetica Narrow, sans-serif;*/
+	/*font-family: Palatino, serif;
+	font-style: normal;*/
+	/*font-family: sans-serif;*/
+	font-weight: 500;
+	/*font-size: .9rem;*/
+}
+
+
+
+
+
+
+
+
+
+

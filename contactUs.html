@@ -1,0 +1,179 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Contact Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/tekHub.css">
+		<link href="https://fonts.googleapis.com/css?family=Crete+Round&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Dosis:400,700,800&display=swap" rel="stylesheet">
+	</head>
+	<body style="background: white" class="body-normal-background">
+
+		<nav class="navbar  navbar-expand-lg navbar-light bg-light fixed-top">
+			<div class="container-fluid mx-auto">
+				<a class="navbar-brand" href="index.html">
+					<img id="logo" src="assets/res/tekHub.png"></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item ">
+							<a class="nav-link mr-2" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link nav-buttons mr-2" href="products.html">Products</a>
+						</li>
+						<li class="nav-item active">
+							<a  class="nav-link  nav-buttons mr-2" href="contactUs.html">Contact</a>
+						</li>
+					</ul>
+
+					<ul class="navbar-nav">
+						<li class="nav-item mr-2"><a class="nav-link nav-buttons" href="signUp.html" >Signup<span><i class="fas fa-user-plus ml-1 mr-2"></i></span></a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="signIn.html" >Signin <span><i class="fas fa-user ml-1 mr-2"></i></span> </a></li>
+						<li class="nav-item mr-2"><a class="nav-link" href="" >Logout <span><i class="fas fa-sign-out-alt ml-1 mr-2"></i></span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+
+
+		<header>
+			<div class="overlay">
+				<h1>Contact Us</h1>
+				<h3>We are always there for you</h3>
+			</div>
+		</header>
+
+
+
+		<div class="container mt-5 pt-2">
+			<div >
+				<h2 class="mt-5 mb-4" style="font-size: 2.5rem">Who we are ?</h2>
+				<p class="text-para">Tek-Hub is a web application to help every student of <strong>Cegep del la gaspesie college</strong>, to provide all possible equipment related to studies and their projects. Any one from college with valid active studentId can borrow an item free of cost for specific period of time.</p>
+			</div>
+
+			<div>
+				<h2 class=" mt-5 mb-4">Important Instructions </h2>
+			</div>
+			<div class="instructions ml-3 text-para">
+				<p>
+					<ul>
+						<li>
+							TekHub is an android application to help Cegep de la gaspesie students to lend computer related stuff from the college.
+						</li>
+						<li>
+							Only active students of Cegep college can use this application to borrow products from the college.
+						</li>
+						<li>
+							Items can be picked up from college inventory on any day of week from 8:00 am to 4:30 pm except on holidays.
+						</li>
+						<li>
+							Student can generate issue regarding item if it is broken, lost or other similiar problems.
+						</li>
+						<li>
+							Student should inform college inventory head regarding late return of item one day before deadline.
+						</li>
+						<li>
+							Student should show Order details with Student Id to pickup the item from college inventory.
+						</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+
+
+		<div class="container ">
+			<div class="mycard-contact mx-2">
+				<div class="card-body ">
+					<h2 class="text-center mb-5 " >Leave a message</h2>
+					<form id="contact-form" >
+						<div class="input-contacts mb-4">
+							<label style="color: black" for="stdId" >Student ID </label>
+							<input id="stdId" type="text" class="form-control" placeholder="enter student id" aria-label="Recipient's username" aria-describedby="basic-addon2">
+						</div>
+						<div class="input-contacts mb-4">
+							<label style="color: black" for="name" >Name </label>
+							<input id="name" type="text" class="form-control" placeholder="enter your name id" aria-label="Recipient's username" aria-describedby="basic-addon2">
+						</div>
+						<div class="input-contacts mb-4">
+							<label style="color: black" for="email" >Email </label>
+							<input id="email" type="text" class="form-control" placeholder="enter your email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+						</div>
+						<div class=" mb-2">
+							<label style="color: black" for="subject">Subject</label>
+							<textarea id="subject" class="form-control" name="subject" placeholder="Write your message.." style="height:170px"></textarea>
+						</div>
+					</form>
+				</div>
+				<button class="btn btn-success ml-4 btn-md">Submit</button>
+			</div>
+		</div>
+
+
+
+		<div class="container mt-3 mb-5">
+			<div class="row">
+				<div class="col-sm-4">
+					<i style="color: #d02525" class="fas fa-4x fa-phone-square-alt mb-3"></i>
+					<h4>Call Us</h4>
+					<p class="text-para">+1(514)291-1514</p>
+				</div>
+				<div class="col-sm-4">
+					<i style="color: #d02525" class="fas fa-4x fa-envelope-square mb-3"></i>
+					<h4>Mail Us</h4>
+					<p class="text-para">kulsinggh@gmail.com</p>
+				</div>
+				<div class="col-sm-4">
+					<i style="color: #d02525" class="fas  fa-4x fa-map-marked-alt mb-3"></i>
+					<h4>Our Addres</h4>
+					<p class="text-para">3384 Rue Monselet, Montreal-nord quebec</p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="card footer text-center">
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-4 mt-2 mb-2">
+						<p class="mt-0 mb-0 footer-link"><a class="footer-link" href="">Home</a></p>  		
+						<p class="mt-0 mb-0 footer-link"><a class="footer-link" href="">Signup</a></p>
+						<p class="mt-0 mb-0 footer-link"><a class="footer-link" href="">Signin</a></p>
+						<p class="mt-0 mb-0 footer-link"><a class="footer-link" href="">Logout</a></p>
+					</div>
+					<div class="col-sm-4 mt-2 mb-2">
+						<div id="footer-icons" class="mt-2">
+							<a class="footer-link" href="https://ca.linkedin.com/in/kuldeep1993"><i class="fab  fa-2x fa-facebook mx-2" ></a></i>
+							<a class="footer-link" href="https://github.com/Gilpix"><i class="fab fa-2x fa-github mx-2" ></i></a></i>
+							<a class="footer-link" href="https://stackoverflow.com/users/3320164/kulartist"> <i class="fab fa-2x fa-instagram mx-2"></i></a></i>
+						</div>
+					</div>
+					<div class="col-sm-4 mt-2 footer-text">
+						<h6 class="mb-0">Email us :</h6>
+						<p>kulsinggh@gmail.com</p>
+						<h6 class="mb-0">Contact us :</h6>
+						<p class="text-para">+15142921514</p>
+					</div>	  		
+				</div>
+			</div>
+			<div class="card-footer pt-2 pb-2">
+				@2020, All Rights Reserved | Tek-Hub by @kulArtist
+			</div>
+		</div>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	</body>
+	</html>
