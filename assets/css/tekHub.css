@@ -264,7 +264,7 @@ a{
 	text-transform: none;
 }
 
-.text-whit{
+.text-white{
 	color: white;
 }
 
@@ -346,7 +346,7 @@ a{
 }
 
 header {
-	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+	/*background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');*/
 	text-align: center;
 	margin-top: 55px;
 	width: 100%;
@@ -399,6 +399,28 @@ header .overlay{
 	/*font-size: .9rem;*/
 }
 
+.profile-head{
+	width: 100%
+	/*background=url("foot.jpg");*/
+	background: linear-gradient(to right, #b31217, #e52d27); 
+	background-image: url("https://essencecartoon.com/wp-content/uploads/2016/02/Website-Header.jpg");
+	/*background: green;*/
+	height: 30%;
+	letter-spacing: 1px;
+
+}
+
+.mycard-profile{
+	width: 40%;
+	text-align:center;
+	padding-bottom: 30px;
+	max-width: 400px;
+	min-width: 15rem;
+	background: rgba(255,255,255);
+	margin: 150px auto;
+	box-shadow: 1px 1px 5px black;
+	border-radius: 5px;
+}
 
 
 
